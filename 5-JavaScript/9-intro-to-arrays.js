@@ -29,9 +29,14 @@ superheros.forEach(function(hero) {
 
 //Array Methods
 console.log("Array length is", superheros.length);
-console.log("Value of 3 is", superheros.indexOf("Shang Chi"));
+console.log("Value of Shang Chi is", superheros.indexOf("Shang Chi"));
 console.log("Join Array:",superheros.join("-"));
 
-//Slice - SLiing parts of an array out 
+//Slice - Slicing parts of an array out 
 let slicedArray = superheros.slice(1, 4)
 console.log(slicedArray);
+
+//Splicing
+let removedElement = superheros.splice(2,2);
+console.log("Removed Elements:", removedElement);
+console.log("Updated Array:", superheros);
