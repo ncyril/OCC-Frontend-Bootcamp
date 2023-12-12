@@ -1,0 +1,33 @@
+/* About Me Section */
+.about-content {
+    padding: 20px;
+}
+
+.profile-img {
+    margin-top: 20px;
+}
+
+/* Social Media Section */
+#social-media {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 30px 0; /* Added some padding for better spacing */
+}
+
+.social-icons {
+    display: inline-block; /* Changed to inline-block for horizontal alignment */
+    margin: 0;
+    padding: 0;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #333; /* Change icon color */
+    text-decoration: none; /* Ensure no default text underline */
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+}
